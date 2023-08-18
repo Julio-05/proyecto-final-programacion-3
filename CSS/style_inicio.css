@@ -24,7 +24,7 @@ img{
 .header{
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 5px;
     background-color: #509e0bb1;
     padding: 70px 0;
 }
@@ -45,7 +45,6 @@ img{
     text-transform: uppercase;
     font-weight: 800;
 }
-
 .menu .navbar ul li{
     position: relative;
     float: left;
@@ -75,7 +74,6 @@ img{
     cursor: pointer;
     display: none;
 }
-
 
 
 .header-content {
@@ -135,12 +133,13 @@ img{
 
 @keyframes waveAnimation {
     0% {
-        background-position-x: 0; /* Comienza desde la posición inicial */
+        background-position-x: 0; 
     }
     100% {
-        background-position-x: 1000px; /* Llega a la posición final después de 10 segundos */
+        background-position-x: 1000px; 
     }
 }
+
 @media (max-width: 991px) {
     .menu{
         padding: 20px;
@@ -155,7 +154,7 @@ img{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #000000;
+        background-color: #181818;
         display: none;
     }
 
@@ -164,7 +163,7 @@ img{
     }
 
     .menu .navbar ul li a{
-        color: #ffffffba;
+        color: #ffffff;
     }
 
     #menu:checked ~ .navbar {
@@ -174,6 +173,7 @@ img{
     .logo{
         display: none;
     }
+
     .header{
         min-width: 0vh;
     }
