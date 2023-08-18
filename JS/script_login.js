@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (username === 'admin' && password === '1234') {
             // Autenticación exitosa, redirigir a index.html
             alert('Inicio de sesión exitoso');
-            window.location.href = 'index.html';
+            window.location.href = 'inicio.html';
         } else {
             // Autenticación fallida, muestra mensaje de error
             alert('Nombre de usuario o contraseña incorrectos. Por favor, intenta nuevamente.');
