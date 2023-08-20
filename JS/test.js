@@ -23,7 +23,6 @@ async function runTest() {
         // Abrir la página de inicio de sesión
         await driver.get('http://127.0.0.1:5500/login.html');
 
-        // Tomar captura de pantalla antes de ingresar las credenciales
         await takeScreenshot(driver, 'screenshot_inicio_sesion.png');
         await driver.sleep(1000);
         // Iniciar sesión con credenciales válidas
